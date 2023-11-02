@@ -1,10 +1,8 @@
-
 //entrada
 const nomeHeroi = ("Super Geraldinho")
 let heroiXp = 1
 let rankHeroi = ""
 //...
-
 if(heroiXp > 0 && heroiXp <= 1000){
     rankHeroi = ("Ferro.")
 }else if(heroiXp > 1000 && heroiXp<=2000){
