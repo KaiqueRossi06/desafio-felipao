@@ -7,8 +7,7 @@ let rankHeroi = ""
 
 if(heroiXp > 0 && heroiXp <= 1000){
     rankHeroi = ("Ferro.")
-}
- if(heroiXp > 1000 && heroiXp<=2000){
+}else if(heroiXp > 1000 && heroiXp<=2000){
     rankHeroi = ("Bronze.")
 }else if(heroiXp > 2000 && heroiXp<=5000){
     rankHeroi = ("Prata.")
